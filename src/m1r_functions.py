@@ -42,4 +42,7 @@ def hello_and_goodbye(person1, person2):
     goodbye(person2)
 
 
-main()
+import rosegraphics as rg
+p = rg.Point(100, 200)
+p.x = p.x * 3
+print(p)
