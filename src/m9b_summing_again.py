@@ -97,6 +97,29 @@ def run_test_sum_powers_in_range():
     answer = sum_powers_in_range(3,100,0.1)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
+    print()
+    print('--------------------------------------------------')
+    print('Testing the   sum_powers_in_range   function:')
+    print('--------------------------------------------------')
+
+    # Test 2:
+    expected = 991.5697446756935
+    answer = sum_powers_in_range(5, 100, 0.6)
+    print('Test 2 expected:', expected)
+    print('       actual:  ', answer)
+
+    print()
+    print('--------------------------------------------------')
+    print('Testing the   sum_powers_in_range   function:')
+    print('--------------------------------------------------')
+
+    # Test 3:
+    expected = 325.0801232708467
+    answer = sum_powers_in_range(5, 50, 0.6)
+    print('Test 3 expected:', expected)
+    print('       actual:  ', answer)
+
+
 def sum_powers_in_range(m, n, p):
     """
     What comes in:  Non-negative integers m and n, with n >= m,
