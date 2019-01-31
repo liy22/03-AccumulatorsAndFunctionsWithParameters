@@ -13,7 +13,6 @@ def main():
     run_test_sum_powers()
     run_test_sum_powers_in_range()
 
-
 def run_test_sum_powers():
     """ Tests the   sum_powers   function. """
     # -------------------------------------------------------------------------
